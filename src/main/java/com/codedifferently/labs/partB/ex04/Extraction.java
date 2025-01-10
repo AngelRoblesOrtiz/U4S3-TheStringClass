@@ -7,6 +7,10 @@ public class Extraction {
         String greeting = "Learning Java is a good time!";
 
         /* Your code goes here*/
+        String newString1 = greeting.substring(0, 5);
+        String newString2 = greeting.substring(7, 11);
+        String newString3 = greeting.substring(7, 29);
+        response += newString1 + "\n" + newString2 + "\n" + newString3;
 
 
         return response;
